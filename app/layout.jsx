@@ -1,4 +1,6 @@
 import '../styles/globals.css'
+import Nav from '@/components/Nav/Nav'
+import Footer from '@/components/Footer/Footer'
 
 export const metadata = {
   title: 'audiophile',
@@ -8,7 +10,11 @@ export const metadata = {
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Nav />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }

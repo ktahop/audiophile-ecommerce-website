@@ -16,7 +16,7 @@ const Home = () => {
       <a href="#" className="btn-two">SEE PRODUCT</a>
       <br />
       <a href="#" className="btn-three">SHOP &gt;</a>
-      <ul style={{backgroundColor: 'black'}}>
+      <ul style={{backgroundColor: 'grey'}}>
         <li><a className='link'href="">HOME</a></li>
         <li><a className='link' href="">HEADPHONES</a></li>
         <li><a className='link' href="">SPEAKERS</a></li>

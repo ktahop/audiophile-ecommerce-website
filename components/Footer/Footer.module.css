@@ -1,0 +1,45 @@
+.footer {
+  background-color: var(--clr-dark-two);
+  color: hsl(0, 0%, 50%);
+  padding: 0 20px 50px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bar {
+  width: 100px;
+  height: 3px;
+  background-color: var(--clr-primary);
+}
+
+.rowOne {
+  margin: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rowTwo {
+  margin-bottom: 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.socials {
+  margin-left: 15px;
+  transition: filter 100ms;
+}
+
+.socials:hover {
+  cursor: pointer;
+  /* fill: var(--clr-primary); */
+  filter: var(--clr-primary);
+}
+
+.rowThree {
+  font-weight: 700;
+}
