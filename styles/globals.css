@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
+
+/* RESETS */
+:root {
+  --clr-primary: hsl(22, 65%, 57%);
+  --clr-accent: hsl(21, 94%, 75%);
+
+  --clr-dark-one: hsl(0, 0%, 6%);
+  --clr-dark-two: hsl(0, 0%, 0%);
+
+  --clr-light-one: hsl(0, 0%, 95%);
+  --clr-light-two: hsl(0, 0%, 98%);
+  --clr-light-three: hsl(0, 0%, 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* FONTS */
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 58px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 44px;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 36px;
+  letter-spacing: 1.15px;
+}
+
+h4 {
+  font-size: 28px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 38px;
+  letter-spacing: 2px;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 33px;
+  letter-spacing: 1.7px;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 1.3px;
+}
+
+.overline {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 19px;
+  letter-spacing: 10px;
+  color: var(--clr-primary);
+}
+
+.sub-title {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 1px;
+  color: var(--clr-primary);
+}
+
+/* LINKS */
+.link {
+  text-decoration: none;
+  color: var(--clr-light-three);
+}
+
+/* BUTTONS */
+.btn-one {
+  display: inline-block;
+  padding: 13px 30px;
+  border: 2px solid var(--clr-primary);
+  background-color: var(--clr-primary);
+  color: var(--clr-light-three);
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background-color 100ms ease-in-out, border 100ms ease-in-out;
+}
+
+.btn-one:hover {
+  background-color: var(--clr-accent);
+  border: 2px solid var(--clr-accent);
+}
+
+.btn-two {
+  display: inline-block;
+  padding: 13px 30px;
+  border: 2px solid var(--clr-dark-two);
+  background-color: var(--clr-light-three);
+  color: var(--clr-dark-two);
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background-color 100ms ease-in-out, color 100ms ease-in-out;
+}
+
+.btn-two:hover {
+  background-color: var(--clr-dark-two);
+  color: var(--clr-light-three);
+}
+
+.btn-three {
+  color: hsl(0, 0%, 50%);
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: 1px;
+  transition: color 100ms ease-in-out;
+}
+
+.btn-three:hover {
+  color: var(--clr-primary);
+}
+
+/* LINKS */
+.link {
+  text-decoration: none;
+  transition: color 100ms ease-in-out;
+}
+
+.link:hover {
+  color: var(--clr-primary);
+}
