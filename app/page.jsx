@@ -6,7 +6,7 @@ import Category from '@/components/Category/Category'
 const Home = () => {
   return (
     <main> 
-      <section className={styles.hero}>
+      {/* <section className={styles.hero}>
         <div className={`${styles.heroContent} ${styles.container}`}>
           <p className="overline">New Product</p>
           <h1>
@@ -23,7 +23,8 @@ const Home = () => {
       </section>
       <section className={`${styles.category}`}>
         <Category />
-      </section>
+      </section> */}
+      <h1>MAIN</h1>
     </main>
   )
 }
