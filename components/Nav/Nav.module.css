@@ -1,7 +1,20 @@
-.nav {
-  padding: 30px 10px;
+.desktop {
+  padding: 35px;
   background-color: var(--clr-dark-two);
   color: var(--clr-light-three);
+}
+
+.mobile {
+  display: none;
+  padding: 35px 20px;
+  background-color: var(--clr-dark-two);
+  color: var(--clr-light-three);
+}
+
+.hamburger {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .container {
@@ -10,4 +23,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+@media only screen and (max-width: 900px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
 }

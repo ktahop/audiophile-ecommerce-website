@@ -88,7 +88,6 @@ h6 {
   text-transform: uppercase;
   line-height: 19px;
   letter-spacing: 10px;
-  color: var(--clr-primary);
 }
 
 .sub-title {
@@ -96,7 +95,6 @@ h6 {
   font-weight: 700;
   line-height: 25px;
   letter-spacing: 1px;
-  color: var(--clr-primary);
 }
 
 /* BUTTONS */
