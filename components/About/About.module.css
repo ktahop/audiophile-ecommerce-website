@@ -1,0 +1,43 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.leftContent {
+  max-width: 40%;
+}
+
+.leftContent h2 {
+  margin-bottom: 30px;
+}
+
+.leftContent span {
+  color: var(--clr-primary);
+}
+
+.rightContent {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-image: url('../../public/assets/shared/desktop/image-best-gear.jpg');
+  background-size: cover;
+  background-position:center;
+}
+
+@media only screen and (max-width: 980px) {
+  .about {
+    flex-direction: column-reverse;
+  }
+
+  .leftContent {
+    text-align: center;
+    max-width: 60%;
+  }
+
+  .rightContent {
+    max-width: 100vw;
+    height: 200px;
+  }
+}

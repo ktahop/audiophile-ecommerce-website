@@ -11,13 +11,8 @@ const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body>
-        <header>
-          <Nav />
-        </header>
         {children}
-        <footer>
-          <Footer />
-        </footer>
+        <Footer />
       </body>
     </html>
   )

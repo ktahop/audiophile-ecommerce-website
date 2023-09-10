@@ -1,30 +1,26 @@
 import styles from './page.module.css'
-import heroImg from '../public/assets/home/desktop/image-hero.jpg'
-import Image from 'next/image'
-import Category from '@/components/Category/Category'
+import Nav from '../components/Nav/Nav'
+import About from '../components/About/About'
 
 const Home = () => {
   return (
-    <main> 
-      {/* <section className={styles.hero}>
-        <div className={`${styles.heroContent} ${styles.container}`}>
-          <p className="overline">New Product</p>
-          <h1>
-            X99 MARK II<br />
-            HEADPHONES
-          </h1>
-          <p>
-            Experience natural, lifelike audio and exceptional<br />
-            build quality made for the passionate music<br />
-            enthusiasts.
-          </p>
-          <a href="#" className='btn-one'>SEE PRODUCTS</a>
+    <main>
+      <div className={styles.hero}>
+        <div className={styles.container}>
+          <Nav />
+          <div className={styles.heroContent}>
+            <p className="overline">New Product</p>
+            <h1>XX99 Mark II Headphones</h1>
+            <p>Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.</p>
+            <a href="" className="btn-one">SEE PRODUCT</a>
+          </div>
         </div>
-      </section>
-      <section className={`${styles.category}`}>
-        <Category />
-      </section> */}
-      <h1>MAIN</h1>
+      </div>
+      <div className={styles.about}>
+        <div className={styles.container}>
+          <About /> 
+        </div>
+      </div>
     </main>
   )
 }
